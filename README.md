@@ -29,7 +29,7 @@ __https://github.com/LARG/utaustinvilla3d__.
 `./motionEditor`
 * Set Nao body type
 * Reset Monitor by clicking
-![alt text](https://github.com/navid-hoseini/aiut3d-nao-motion-editor/blob/master/icon32x32/reset-icon32x32.png)
+![alt text](./icon32x32/reset-icon32x32.png)
 on the motion editor window. It is recommended to perform reset twice so that the robot beam will be done correctly.
 * Now you can start your motion design.
 * To add new keyframe to the list of keyframes, click
