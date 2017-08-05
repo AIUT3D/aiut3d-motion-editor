@@ -78,6 +78,3 @@ are supposed to move a keyframe up or down in the keyframes list. But this featu
 
 #### Sample kick motion
 * A sample kick motion for Nao type 0 is availabe in createdKicks folder. It can be loaded by Ctrl+o shortcut or using `file` menu.
-
-#### Known bugs
-* Currently the toe joints of Nao type 4 is not supported. This issue will be solved as soon as possible.
