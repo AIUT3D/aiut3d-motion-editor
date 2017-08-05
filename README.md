@@ -29,23 +29,23 @@ __https://github.com/LARG/utaustinvilla3d__.
 `./motionEditor`
 * Set Nao body type
 * Reset Monitor by clicking
-![alt text](./icon32x32/reset-icon32x32.png)
+![reset button](./icon32x32/reset-icon32x32.png)
 on the motion editor window. It is recommended to perform reset twice so that the robot beam will be done correctly.
 * Now you can start your motion design.
 * To add new keyframe to the list of keyframes, click
-![alt text](https://github.com/navid-hoseini/aiut3d-nao-motion-editor/blob/master/icon32x32/add-icon32x32.png) button.
+![add key frame button](./icon32x32/add-icon32x32.png) button.
 * To remove a keyframe, select it from keyframes list and then click
-![alt text](https://github.com/navid-hoseini/aiut3d-nao-motion-editor/blob/master/icon32x32/Close-2-icon32x32.png)
+![delete key frame button](./icon32x32/Close-2-icon32x32.png)
 * To edit/play a single keyframe, just select it from the keyframes list by clicking it. After being selected, the keyframe effect can be observed via RoboViz. Moreover, you can edit the joint values for the selected keyframe.
 * You can also play the keyframes successively from the beginning to the end by clicking
-![alt text](https://github.com/navid-hoseini/aiut3d-nao-motion-editor/blob/master/icon32x32/play-icon-32x32.png)
+![play button](./icon32x32/play-icon-32x32.png)
 * Buttons
-![alt text](https://github.com/navid-hoseini/aiut3d-nao-motion-editor/blob/master/icon32x32/Arrows-Up-icon32x32.png)
+![arrow up button](./icon32x32/Arrows-Up-icon32x32.png)
 and
-![alt text](https://github.com/navid-hoseini/aiut3d-nao-motion-editor/blob/master/icon32x32/Arrows-Down-icon32x32.png)
+![arrow down button](./icon32x32/Arrows-Down-icon32x32.png)
 are supposed to move a keyframe up or down in the keyframes list. But this feature is not implemented yet. So pressing these two button has no effect for now.
 * In case of a fall, you can instruct the robot to get up by clicking
-<img src="https://github.com/navid-hoseini/aiut3d-nao-motion-editor/blob/master/icon32x32/getup512x512.png" width="32"> button.
+<img src="./icon32x32/getup512x512.png" width="32"> button.
 * `Auto Fall Recovery` checkbox specifies whether the robot should get up automatically in case of a fall or not. Please note that if the designed motion causes the accelerometer values on x or y axis to increase more than 6.5m/s^2, a fall will be detected by UTAustinVilla base code which means the designed motion execution will be aborted. So a word of advice is to keep `Auto Fall Recovery` off if you want to design unstable motions such as long range kicks.
 * Please note that the motion editor only works when the rcssserver3d play mode is `PlayOn`. So if the play mode is something different, it must be set to `PlayOn` manually via RoboViz.
 #### Motion file format
