@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="MotionEditor" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Qt5.4.1\;CMake Files\..\..\Qt5.4.1\5.4\;CMake Files\..\..\Qt5.4.1\5.4\gcc_64\;CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\;CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\;CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\;CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Core\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/navid/qt_workspace/96-05-14-motionEdit" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="MyProjectLib">
+         <Option output="/home/navid/qt_workspace/96-05-14-motionEdit/libMyProjectLib.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/navid/qt_workspace/96-05-14-motionEdit" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/navid/Qt5.4.1/5.4/gcc_64/include" />
+            <Add directory="/home/navid/Qt5.4.1/5.4/gcc_64/include/QtCore" />
+            <Add directory="/home/navid/Qt5.4.1/5.4/gcc_64/include/QtGui" />
+            <Add directory="/home/navid/Qt5.4.1/5.4/gcc_64/include/QtWidgets" />
+            <Add directory="/home/navid/Qt5.4.1/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/home/navid/qt_workspace/96-05-14-motionEdit" />
+            <Add directory="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/simspark" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 MyProjectLib" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="MyProjectLib/fast">
+         <Option output="/home/navid/qt_workspace/96-05-14-motionEdit/libMyProjectLib.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/navid/qt_workspace/96-05-14-motionEdit" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/navid/Qt5.4.1/5.4/gcc_64/include" />
+            <Add directory="/home/navid/Qt5.4.1/5.4/gcc_64/include/QtCore" />
+            <Add directory="/home/navid/Qt5.4.1/5.4/gcc_64/include/QtGui" />
+            <Add directory="/home/navid/Qt5.4.1/5.4/gcc_64/include/QtWidgets" />
+            <Add directory="/home/navid/Qt5.4.1/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/home/navid/qt_workspace/96-05-14-motionEdit" />
+            <Add directory="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/simspark" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 MyProjectLib/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="motionEditor">
+         <Option output="/home/navid/qt_workspace/96-05-14-motionEdit/motionEditor" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/navid/qt_workspace/96-05-14-motionEdit" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/navid/Qt5.4.1/5.4/gcc_64/include" />
+            <Add directory="/home/navid/Qt5.4.1/5.4/gcc_64/include/QtCore" />
+            <Add directory="/home/navid/Qt5.4.1/5.4/gcc_64/include/QtGui" />
+            <Add directory="/home/navid/Qt5.4.1/5.4/gcc_64/include/QtWidgets" />
+            <Add directory="/home/navid/Qt5.4.1/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/home/navid/qt_workspace/96-05-14-motionEdit" />
+            <Add directory="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/simspark" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 motionEditor" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="motionEditor/fast">
+         <Option output="/home/navid/qt_workspace/96-05-14-motionEdit/motionEditor" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/navid/qt_workspace/96-05-14-motionEdit" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/navid/Qt5.4.1/5.4/gcc_64/include" />
+            <Add directory="/home/navid/Qt5.4.1/5.4/gcc_64/include/QtCore" />
+            <Add directory="/home/navid/Qt5.4.1/5.4/gcc_64/include/QtGui" />
+            <Add directory="/home/navid/Qt5.4.1/5.4/gcc_64/include/QtWidgets" />
+            <Add directory="/home/navid/Qt5.4.1/5.4/gcc_64/mkspecs/linux-g++" />
+            <Add directory="/home/navid/qt_workspace/96-05-14-motionEdit" />
+            <Add directory="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/simspark" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 motionEditor/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/navid/qt_workspace/96-05-14-motionEdit" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/navid/qt_workspace/96-05-14-motionEdit/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/audio/audio.cc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/behaviors/behavior.cc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/behaviors/checkfall.cc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/behaviors/kicking.cc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/behaviors/naobehavior.cc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/behaviors/strategy.cc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/bodymodel/bodymodel.cc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/creditwindow.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/headers/headers.cc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/ikfast/ikfast.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/kalman/BallKF.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/kalman/OrigKalmanFilter.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/kalman/PlayerKF.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/main.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/mainwindow.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/math/Geometry.cc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/math/hctmatrix.cc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/math/vecposition.cc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/optimization/optimizationbehaviors.cc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/parser/parser.cc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/particlefilter/MyRandom.cc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/particlefilter/PFLocalization.cc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/particlefilter/Particle.cc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/rvdraw/rvdraw.cc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/sendertoserver.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/servercomm/primitives.cc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/skills/curve3d.cc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/skills/skill.cc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/Module.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/MotionCore.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/common/NMatrix.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/common/PIDController.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/kinematics/ForwardKinematics.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/kinematics/InverseKinematics.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/kinematics/KinematicsModule.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/math/Geometry.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/math/MVTools.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/math/RotationMatrix.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/memory/Lock.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/memory/Logger.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/memory/Memory.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/memory/MemoryBlock.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/memory/PrivateMemory.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/memory/SharedMemory.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/motion/MotionModule.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/motion/UTWalkEngine.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/motion/WalkEngineParameters.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/sensor/InertialFilter.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/sensor/SensorModule.cpp">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/worldmodel/worldmodel.cc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/audio/audio.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/behaviors/behavior.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/behaviors/naobehavior.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/bodymodel/bodymodel.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/creditwindow.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/creditwindow.ui">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/headers/headers.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/ikfast/ikfast.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/kalman/BallKF.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/kalman/OrigKalmanFilter.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/kalman/PlayerKF.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/mainwindow.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/mainwindow.ui">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/math/Geometry.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/math/hctmatrix.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/math/vecposition.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/optimization/optimizationbehaviors.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/parser/parser.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/particlefilter/MyRandom.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/particlefilter/PFLocalization.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/particlefilter/Particle.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/resources.qrc">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/rvdraw/rvdraw.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/sendertoserver.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/skills/curve3d.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/skills/skill.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/Module.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/MotionCore.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/common/NMatrix.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/common/PIDController.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/kinematics/ForwardKinematics.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/kinematics/InverseKinematics.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/kinematics/KinematicsModule.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/math/Geometry.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/math/MVTools.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/math/RotationMatrix.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/memory/Lock.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/memory/Logger.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/memory/Memory.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/memory/MemoryBlock.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/memory/PrivateMemory.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/memory/SharedMemory.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/motion/MotionModule.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/motion/UTWalkEngine.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/motion/WalkEngineParameters.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/sensor/InertialFilter.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/utwalk/sensor/SensorModule.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/worldmodel/worldmodel.h">
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/cmake/FindRcssnet3d.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk2ThemePlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/navid/qt_workspace/96-05-14-motionEdit/../../Qt5.4.1/5.4/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\Qt5.4.1\5.4\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

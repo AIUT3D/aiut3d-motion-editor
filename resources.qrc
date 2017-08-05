@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/fonts">
+        <file>fonts/FiraMono-Regular.ttf</file>
+        <file>fonts/FiraMono-Bold.ttf</file>
+    </qresource>
+</RCC>
