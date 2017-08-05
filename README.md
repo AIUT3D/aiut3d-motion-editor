@@ -77,4 +77,4 @@ are supposed to move a keyframe up or down in the keyframes list. But this featu
 * rle7  // Right toe pitch
 
 #### Sample kick motion
-* A sample kick motion for Nao type 0 is availabe in createdKicks folder. It can be loaded by Ctrl+o shortcut or using `file` menu.
+* A sample kick motion for Nao type 0 is availabe in createdKicks folder. After setting body type, the sample kick can be loaded by Ctrl+o shortcut or using file menu.
