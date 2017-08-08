@@ -78,3 +78,6 @@ are supposed to move a keyframe up or down in the keyframes list. But this featu
 
 #### Sample kick motion
 * A sample kick motion for Nao type 0 is availabe in `createdKicks` folder. After setting body type, the sample kick can be loaded by Ctrl+o shortcut or using `file` menu.
+
+#### Contact
+* If you have any questions, suggestions or bug report, please feel free to contact us:aiut3d@yahoo.com.
