@@ -80,6 +80,7 @@ are supposed to move a keyframe up or down in the keyframes list. But this featu
 * A sample kick motion for Nao type 0 is availabe in `createdKicks` folder. After setting body type, the sample kick can be loaded by Ctrl+o shortcut or using `file` menu.
 #### User agreement
 * If you use this code for research purposes, please consider citing the following paper:
+
 Izadi, Navid Hoseini, Mohamad Roshanzamir, Mahdi Tajmir Riahi, Mahdi Abbasi, Seyed Yagoub Ashkoofaraz Soureshjani, Mohammad Amin Fahami, and Maziar Palhang. "AIUT3D 2017 Soccer Simulation 3D League Team Description Paper."(https://www.robocup2017.org/file/symposium/soccer_sim_3D/AIUT3D_TDP.pdf)
 #### Contact
 * If you have any questions, suggestions or bug report, please feel free to contact us:aiut3d@yahoo.com.
